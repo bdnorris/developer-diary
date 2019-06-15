@@ -21,7 +21,12 @@ module.exports = {
           "2019/june/11.md",
           "2019/june/12.md",
           "2019/june/13.md",
-          "2019/june/14.md"
+          "2019/june/14.md",
+          "2019/june/17.md",
+          "2019/june/18.md",
+          "2019/june/19.md",
+          "2019/june/20.md",
+          "2019/june/21.md"
         ]
       }
     ]
