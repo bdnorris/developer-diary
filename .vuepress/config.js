@@ -15,23 +15,8 @@ module.exports = {
         title: "2019",
         collapsable: true,
         children: [
-          "2019/june/06.md",
-          "2019/june/07.md",
-          "2019/june/10.md",
-          "2019/june/11.md",
-          "2019/june/12.md",
-          "2019/june/13.md",
-          "2019/june/14.md",
-          "2019/june/17.md",
-          "2019/june/18.md",
-          "2019/june/19.md",
-          "2019/june/20.md",
-          "2019/june/21.md",
-          "2019/june/24.md",
-          "2019/june/25.md",
-          "2019/june/26.md",
-          "2019/june/27.md",
-          "2019/june/28.md"
+          "2019/june/",
+          "2019/july/"
         ]
       }
     ]
