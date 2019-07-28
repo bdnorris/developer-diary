@@ -16,7 +16,8 @@ module.exports = {
         collapsable: true,
         children: [
           "2019/june/",
-          "2019/july/"
+          "2019/july/",
+          "2019/august/"
         ]
       }
     ]
