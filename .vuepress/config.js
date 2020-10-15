@@ -29,6 +29,15 @@ module.exports = {
         collapsable: true,
         children: [
           "2020/january/",
+          "2020/february/",
+          "2020/march/",
+          "2020/april/",
+          "2020/may/",
+          "2020/june/",
+          "2020/july/",
+          "2020/august/",
+          "2020/september/",
+          "2020/october/",
         ]
       }
     ]
