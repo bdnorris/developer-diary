@@ -21,15 +21,15 @@ title: Developer Diary
 
 # 2020
 
-[June](2020/january/)
+[January](2020/january/)
 
-[June](2020/february/)
+[February](2020/february/)
 
-[June](2020/march/)
+[March](2020/march/)
 
-[June](2020/april/)
+[April](2020/april/)
 
-[June](2020/may/)
+[May](2020/may/)
 
 [June](2020/june/)
 
@@ -40,7 +40,3 @@ title: Developer Diary
 [September](2020/september/)
 
 [October](2020/october/)
-<!-- 
-[November](2020/november/)
-
-[December](2020/december/) -->
