@@ -40,3 +40,5 @@ title: Developer Diary
 [September](2020/september/)
 
 [October](2020/october/)
+
+[November](2020/november/)

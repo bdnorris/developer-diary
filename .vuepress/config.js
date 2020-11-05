@@ -38,6 +38,7 @@ module.exports = {
           "2020/august/",
           "2020/september/",
           "2020/october/",
+          "2020/november/",
         ]
       }
     ]
