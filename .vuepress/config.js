@@ -59,6 +59,13 @@ module.exports = {
           "2021/november/",
           "2021/december/",
         ]
+      },
+      {
+        title: "2022",
+        collapsable: true,
+        children: [
+          "2022/january/",
+        ]
       }
     ]
   },
