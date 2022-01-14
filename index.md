@@ -44,3 +44,34 @@ title: Developer Diary
 [November](2020/november/)
 
 [December](2020/december/)
+
+# 2021
+
+[January](2021/january/)
+
+[February](2021/february/)
+
+[March](2021/march/)
+
+[April](2021/april/)
+
+[May](2021/may/)
+
+[June](2021/june/)
+
+[July](2021/july/)
+
+[August](2021/august/)
+
+[September](2021/september/)
+
+[October](2021/october/)
+
+[November](2021/november/)
+
+[December](2021/december/)
+
+
+# 2022
+
+[January](2022/january/)
