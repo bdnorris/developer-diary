@@ -65,6 +65,7 @@ module.exports = {
         collapsable: true,
         children: [
           "2022/january/",
+          "2022/february/",
         ]
       }
     ]
