@@ -72,6 +72,10 @@ module.exports = {
           "2022/june/",
           "2022/july/",
           "2022/august/",
+          "2022/september/",
+          "2022/october/",
+          "2022/november/",
+          "2022/december/",
         ]
       }
     ]
