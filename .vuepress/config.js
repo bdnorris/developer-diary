@@ -86,6 +86,12 @@ module.exports = {
           "2023/february/",
           "2023/march/",
           "2023/april/",
+          "2023/may/",
+          "2023/june/",
+          "2023/july/",
+          "2023/august/",
+          "2023/september/",
+          "2023/october/",
         ]
       }
     ]
@@ -103,4 +109,4 @@ module.exports = {
   // async ready() {
   //   // ...
   // }
-};  
+};
