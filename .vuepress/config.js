@@ -21,8 +21,8 @@ module.exports = {
           "2019/september/",
           "2019/october/",
           "2019/november/",
-          "2019/december/"
-        ]
+          "2019/december/",
+        ],
       },
       {
         title: "2020",
@@ -40,7 +40,7 @@ module.exports = {
           "2020/october/",
           "2020/november/",
           "2020/december/",
-        ]
+        ],
       },
       {
         title: "2021",
@@ -58,7 +58,7 @@ module.exports = {
           "2021/october/",
           "2021/november/",
           "2021/december/",
-        ]
+        ],
       },
       {
         title: "2022",
@@ -76,7 +76,7 @@ module.exports = {
           "2022/october/",
           "2022/november/",
           "2022/december/",
-        ]
+        ],
       },
       {
         title: "2023",
@@ -92,21 +92,26 @@ module.exports = {
           "2023/august/",
           "2023/september/",
           "2023/october/",
-          "2023/november/"
-        ]
-      }
-    ]
+          "2023/november/",
+        ],
+      },
+      {
+        title: "2024",
+        collapsable: true,
+        children: ["2024/january/", "2024/february/", "2024/march/"],
+      },
+    ],
   },
   markdown: {
     lineNumbers: true,
     toc: {
-      includeLevel: [2, 3]
+      includeLevel: [2, 3],
     },
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       // md.use(require('markdown-it-imsize'))
-    }
+    },
   },
-  base: "/"
+  base: "/",
   // async ready() {
   //   // ...
   // }
