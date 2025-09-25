@@ -14,15 +14,12 @@ export default defineUserConfig({
       createdTime: false,
       updatedTime: false,
       contributors: false,
+      changelog: false, // Disable changelog to avoid commit message serialization issues
     }),
   ],
   
   theme: defaultTheme({
-    navbar: [
-      //   { text: 'Home', link: '/' },
-      // { text: "Projects", link: "/projects/" }
-      // { text: 'Slack', link: 'https://msuwebdesign.slack.com/' },
-    ],
+    navbar: [],
     sidebar: [
       "/",
       {
@@ -145,6 +142,13 @@ export default defineUserConfig({
     ],
     lastUpdated: false,  // Disable to avoid git parsing issues
     contributors: false,  // Disable to avoid git parsing issues
+    
+    // Disable git-related features completely
+    editLink: false,
+    editLinkPattern: '',
+    docsRepo: '',
+    docsBranch: '',
+    docsDir: '',
   }),
   
   markdown: {

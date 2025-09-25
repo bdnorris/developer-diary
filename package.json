@@ -12,6 +12,6 @@
     "vuepress": "^2.0.0-rc.24"
   },
   "dependencies": {
-    "vue": "^3.5.17"
+    "vue": "^3.5.22"
   }
 }
