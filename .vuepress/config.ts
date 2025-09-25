@@ -1,0 +1,158 @@
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { gitPlugin } from '@vuepress/plugin-git'
+
+export default defineUserConfig({
+  bundler: viteBundler(),
+  title: "Developer Diary",
+  description: "Do, learn, discover",
+  base: "/",
+  
+  plugins: [
+    gitPlugin({
+      createdTime: false,
+      updatedTime: false,
+      contributors: false,
+    }),
+  ],
+  
+  theme: defaultTheme({
+    navbar: [
+      //   { text: 'Home', link: '/' },
+      // { text: "Projects", link: "/projects/" }
+      // { text: 'Slack', link: 'https://msuwebdesign.slack.com/' },
+    ],
+    sidebar: [
+      "/",
+      {
+        text: "2019",
+        collapsible: true,
+        children: [
+          "2019/june/",
+          "2019/july/",
+          "2019/august/",
+          "2019/september/",
+          "2019/october/",
+          "2019/november/",
+          "2019/december/",
+        ],
+      },
+      {
+        text: "2020",
+        collapsible: true,
+        children: [
+          "2020/january/",
+          "2020/february/",
+          "2020/march/",
+          "2020/april/",
+          "2020/may/",
+          "2020/june/",
+          "2020/july/",
+          "2020/august/",
+          "2020/september/",
+          "2020/october/",
+          "2020/november/",
+          "2020/december/",
+        ],
+      },
+      {
+        text: "2021",
+        collapsible: true,
+        children: [
+          "2021/january/",
+          "2021/february/",
+          "2021/march/",
+          "2021/april/",
+          "2021/may/",
+          "2021/june/",
+          "2021/july/",
+          "2021/august/",
+          "2021/september/",
+          "2021/october/",
+          "2021/november/",
+          "2021/december/",
+        ],
+      },
+      {
+        text: "2022",
+        collapsible: true,
+        children: [
+          "2022/january/",
+          "2022/february/",
+          "2022/march/",
+          "2022/april/",
+          "2022/may/",
+          "2022/june/",
+          "2022/july/",
+          "2022/august/",
+          "2022/september/",
+          "2022/october/",
+          "2022/november/",
+          "2022/december/",
+        ],
+      },
+      {
+        text: "2023",
+        collapsible: true,
+        children: [
+          "2023/january/",
+          "2023/february/",
+          "2023/march/",
+          "2023/april/",
+          "2023/may/",
+          "2023/june/",
+          "2023/july/",
+          "2023/august/",
+          "2023/september/",
+          "2023/october/",
+          "2023/november/",
+        ],
+      },
+      {
+        text: "2024",
+        collapsible: true,
+        children: [
+          "2024/january/",
+          "2024/february/",
+          "2024/march/",
+          "2024/april/",
+          "2024/may/",
+          "2024/june/",
+          "2024/july/",
+          "2024/august/",
+          "2024/september/",
+          "2024/october/",
+          "2024/november/",
+          "2024/december/",
+        ],
+      },
+      {
+        text: "2025",
+        collapsible: true,
+        children: [
+          "2025/january/",
+          "2025/february/",
+          "2025/march/",
+          "2025/april/",
+          "2025/may/",
+          "2025/june/",
+          "2025/july/",
+          "2025/august/",
+          "2025/september/",
+        ],
+      },
+    ],
+    lastUpdated: false,  // Disable to avoid git parsing issues
+    contributors: false,  // Disable to avoid git parsing issues
+  }),
+  
+  markdown: {
+    html: true,  // Enable HTML in markdown
+    breaks: true,  // Convert '\n' in paragraphs into <br>
+    linkify: true,  // Autoconvert URL-like text to links
+    toc: {
+      level: [2, 3],
+    },
+  },
+})

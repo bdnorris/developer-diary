@@ -1,5 +1,4 @@
----
-layout: layout.njk
-title: Developer Diary
----
+# Developer Diary
+
+Do, learn, discover
 
