@@ -124,6 +124,8 @@ module.exports = {
           "2024/may/",
           "2024/june/",
           "2024/july/",
+          "2024/august/",
+          "2024/september/",
         ],
       },
     ],
