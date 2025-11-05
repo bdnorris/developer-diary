@@ -137,6 +137,8 @@ export default defineUserConfig({
           "2025/july/",
           "2025/august/",
           "2025/september/",
+          "2025/october/",
+          "2025/november/",
         ],
       },
     ],
