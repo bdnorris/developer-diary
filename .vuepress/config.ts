@@ -104,6 +104,7 @@ export default defineUserConfig({
           "2023/september/",
           "2023/october/",
           "2023/november/",
+          "2023/december/",
         ],
       },
       {
@@ -139,8 +140,17 @@ export default defineUserConfig({
           "2025/september/",
           "2025/october/",
           "2025/november/",
+          "2025/december/",
         ],
       },
+      {
+        text: "2026",
+        collapsible: true,
+        children: [
+          "2026/january/",
+          "2026/february/",
+        ]
+      }
     ],
     lastUpdated: false,  // Disable to avoid git parsing issues
     contributors: false,  // Disable to avoid git parsing issues
